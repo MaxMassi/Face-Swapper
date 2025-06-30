@@ -1,0 +1,7 @@
+insightface>=0.7.3
+onnxruntime
+opencv-python-headless
+numpy
+scikit-image
+pandas
+tqdm
