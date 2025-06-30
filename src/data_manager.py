@@ -18,7 +18,7 @@ class DataManager:
         """Loads all .jpg image paths from the input directory."""
         return glob.glob(os.path.join(self.input_dir, "*.jpg"))
 
-    def analyze_faces(self, face_analysis_app):
+    def analyze_faces(self, face_analysis_app):  # To be updated for better efficiency
         """
         Analyzes all faces in the dataset to extract attributes.
         Returns a pandas DataFrame with face information.
