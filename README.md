@@ -28,7 +28,8 @@ The initial dataset was also balanced by incorporating faces of Brown and Black 
 -   **Modular & OOP**: The code is structured professionally using classes for data management, face swapping, and curation, making it easy to read and extend.
 
 ## Project Structure
-```/Face-Swapper/
+```
+/Face-Swapper/
 |
 |-- data/
 |   |-- input_images/           # Directory to store the source face images
