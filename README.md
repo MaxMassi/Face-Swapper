@@ -28,7 +28,30 @@ The initial dataset was also balanced by incorporating faces of Brown and Black 
 -   **Modular & OOP**: The code is structured professionally using classes for data management, face swapping, and curation, making it easy to read and extend.
 
 ## Project Structure
-
+```/Face-Swapper/
+|
+|-- data/
+|   |-- input_images/           # Directory to store the source face images
+|
+|-- models/                     # Directory where the downloaded .onnx model is stored
+|
+|-- results/
+|   |-- swapped_faces/          # Default directory for the 100 generated face-swaps
+|
+|-- src/                        # Contains all source code
+|   |-- __init__.py
+|   |-- config.py               # Central configuration for paths and generation parameters
+|   |-- data_manager.py         # Manages loading images and analyzing face attributes
+|   |-- dataset_curator.py      # Contains the logic for selecting the 100 image pairs
+|   |-- face_swapper.py         # Encapsulates the core Inswapper model and logic
+|   |-- image_processor.py      # Functions for pre and post-processing images
+|
+|-- generate.py                 # Main script to run the entire dataset generation pipeline
+|-- download_model.py           # A simple script to download the required ONNX model
+|-- requirements.txt            # All project dependencies
+|-- README.md                   # This documentation file
+```
+### File Descriptions:
 -   **`generate.py`**: The main executable script to start the dataset generation.
 -   **`download_model.py`**: A one-time setup script to download the pre-trained `inswapper_128.onnx` model.
 -   **`src/config.py`**: Central configuration for all file paths and generation parameters.
