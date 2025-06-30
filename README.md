@@ -1,10 +1,10 @@
-# Robust Face-Swap Dataset Generator using Inswapper
+# Face-Swap Dataset Generator using Inswapper
 
-This project provides an automated pipeline for generating a high-quality, robust dataset of 100 face-swapped images. The primary goal is to create a diverse dataset that can be used to train a powerful binary classifier capable of detecting face-swaps created with the `insightface` Inswapper model.
+This project provides an automated pipeline for generating a high-quality, robust dataset of 100 face-swapped images. The primary goal is to create a diverse dataset that can be used to train a powerful binary classifier capable of detecting face-swaps. The dataset is created with the `insightface` Inswapper model.
 
 ## Project Overview
 
-In the face of advancing face-swap attacks, building robust detection models is crucial. However, the performance of these models heavily depends on the quality and diversity of the training data. This project tackles the critical first step: **intelligent dataset creation**.
+In the face of advancing face-swap attacks, building robust detection models is crucial. However, the performance of these models heavily depends on the quality and diversity of the training data. This project tackles the critical first step: **Intelligent dataset creation**.
 
 Instead of generating random swaps, this pipeline employs a strategic curation process to create a dataset that covers a wide range of potential attack scenarios, ensuring a resulting classifier is difficult to fool.
 
@@ -40,17 +40,12 @@ The initial dataset was also balanced by incorporating faces of Brown and Black 
 
 ## Getting Started
 
-### Prerequisites
-
--   Python 3.8+
--   `pip` and `virtualenv`
-
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-link>
-    cd Face-Swap-Dataset-Generator
+    git clone <this-repo-link>
+    cd Face-Swapper
     ```
 
 2.  **Create and activate a virtual environment:**
